@@ -68,13 +68,13 @@ describe("#wordSearch()", function() {
     assert.isFalse(result);
   });
 
-  it("should return true if the word is present", function() {
+  it("should return undefined if empty array passed", function() {
     const result = wordSearch([], 'ASYHWBUOEZ')
 
     assert.isUndefined(result);
   });
 
-  it("should return true if the word is present", function() {
+  it("should return undefined if empty array passed", function() {
     const result = wordSearch([],undefined )
 
     assert.isUndefined(result);
